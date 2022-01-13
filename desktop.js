@@ -12,7 +12,7 @@ jQuery.noConflict();
     var messageEl = document.createElement('p');
 
     messageEl.classList.add('plugin-space-message');
-    messageEl.textContent = config.message;
+    messageEl.textContent = config.message + "← プラグイン設定画面で入力された内容";
     headingEl.classList.add('plugin-space-heading');
     headingEl.textContent = 'Hello kintone plugin!';
 
